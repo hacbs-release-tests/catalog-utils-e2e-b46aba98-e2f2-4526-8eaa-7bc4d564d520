@@ -131,7 +131,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: populate-release-notes
-      image: quay.io/konflux-ci/release-service-utils@sha256:2d393d882d16e3b948dbf2320ca293229a59d66ca646502e66fb00009176d747
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:094b4f3b9b5dc0c9cbc3c67c00da278332ddb3f2c9794ba0d8540df3154d01e1
       computeResources:
         limits:
           memory: 128Mi
